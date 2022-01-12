@@ -91,11 +91,13 @@ body {
 .column-nav {
     width: 25%;
     float: left;
+    position: fixed;
 }
 
 .column-7 {
     width: 75%;
     float: left;
+    margin-left: 25%;
 }
 
 
@@ -197,5 +199,14 @@ footer {
     /* column-4 pasará de tener 25% a 50% */
     .column-4 {
         width: 50%;
+    }
+    .column-nav {
+        width: 25%;
+        float: left;
+        position: relative;
+    }
+    .column-7 {
+        width: 100%;
+        margin-left: 0%;
     }
 }
